@@ -30,6 +30,7 @@ body {
     -o-background-size: cover;
 }
 
+/* Home Styles */
 
 .quote {
     font-weight: 300;
@@ -42,6 +43,14 @@ body {
 footer {
     margin: 50px 0;
 }
+
+/* Services Styles */
+
+#services {
+    margin-top: 10px;
+}
+
+.cir
 
 
 /* ==========================================================================
