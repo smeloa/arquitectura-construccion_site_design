@@ -59,11 +59,30 @@ body {
     color: #7EA6A5;
 }
 
+    /* Service Styles */
+
+#services {
+    color: #212F3A;
+}
 
     /* Footer Styles */
 
-footer {
-    margin: 50px 0;
+#footer {
+    background: #232821;
+    width: 100%;
+    color: #ffffff;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .footer-quote {
+        padding-bottom: 0;
+        text-align: left;
+    }
 }
 
 /* Portfolio.html Styles */
@@ -71,7 +90,7 @@ footer {
     /* Quick Contact Styles */
 
 .quick-contact {
-    height: 24px;
+    height: 50px;
     margin-top: 50px;
     background-color: #C6D8D8;
 }
@@ -86,6 +105,10 @@ footer {
     color: #fff;
 }
 
+.e-mail {
+    padding-top: 10px; 
+}
+
     /* Form Styles */
 
 hr {
@@ -94,12 +117,52 @@ hr {
 }
 
 .form {
-    padding-top: 20px
+    margin-top: 30px
 }
 
 .form-control {
-    height: 75px;
+    color: #212F3A;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border: 2px solid #212F3A;
+    font-size: 0.9em;
+    height: 65px;
     width: 100% !important;
+}
+
+textarea.form-control {
+    height: 200px;
+}
+
+.btn2 {
+    display: inline-block;
+    background: transparent;
+    color: #212F3A;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-weight: bold;
+    border: 2px solid #212F3A;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    font-size: 1em;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn2 span {
+    margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+    .btn2 {
+        width: auto;
+        text-align: auto;
+        padding: 20px;
+    }
 }
 
 /* ==========================================================================
