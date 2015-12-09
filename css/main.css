@@ -68,14 +68,41 @@ body {
     /* Footer Styles */
 
 #footer {
-    background: #232821;
+    background-color: #212F3A;
     width: 100%;
-    color: #ffffff;
+    color: #7EA6A5;
     padding-right: 40px;
     padding-left: 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-align: center;
+}
+
+.logo {
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.footer-quote {
+    font-size: 1.2em;
+}
+
+.quote-author {
+    font-style: italic;
+    color: #C5D8DC;
+}
+
+.made-by {
+    padding-top: 10px;
+}
+
+.made-by a {
+    color: #C5D8DC;
+    text-decoration: none;
+}
+
+.made-by a:hover {
+    color: #7EA6A5;
 }
 
 @media (min-width: 768px) {
@@ -85,9 +112,10 @@ body {
     }
 }
 
-/* Portfolio.html Styles */
 
-    /* Quick Contact Styles */
+/* Contact.html Styles */
+
+    /* Quick Contact Styles */    
 
 .quick-contact {
     height: 50px;
@@ -110,6 +138,10 @@ body {
 }
 
     /* Form Styles */
+
+.contact-form {
+    height: 100%;
+}
 
 hr {
     height: 2px;
@@ -163,6 +195,23 @@ textarea.form-control {
         text-align: auto;
         padding: 20px;
     }
+}
+
+/* Portfolio.html Styles */
+
+    /* Quick Contact Styles */    
+
+.portfolio {
+    height: 100%;
+}
+
+
+/* About.html Styles */
+
+    /* Quick Contact Styles */ 
+
+.about {
+    height: 100%;
 }
 
 /* ==========================================================================
