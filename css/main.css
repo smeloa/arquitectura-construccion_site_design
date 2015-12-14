@@ -201,9 +201,16 @@ textarea.form-control {
 
     /* Quick Contact Styles */    
 
-.portfolio {
-    height: 100%;
+.row.no-gutters {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
 }
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
 
 
 /* About.html Styles */
