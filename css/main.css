@@ -251,9 +251,13 @@ textarea.form-control {
 }
 
 
-/* About.html Styles */
+/* Single Page Item Styles */
 
-    /* Quick Contact Styles */ 
+#singlepageitem {
+    padding-top: 50px;
+    padding-bottom: 50px
+}  
+
 
 
 /* ==========================================================================
